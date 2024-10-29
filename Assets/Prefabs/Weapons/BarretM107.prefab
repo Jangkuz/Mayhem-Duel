@@ -403,7 +403,7 @@ MonoBehaviour:
   magAttachPoint: {fileID: 5694983894498519273}
   currentMag: {fileID: 0}
   mainGrabInteractable: {fileID: 5844407773352398204}
-  leverTransform: {fileID: 1089950472354171365}
+  leverTransform: {fileID: 6647348180425001439}
   leverStartTransform: {fileID: 4580892639439691802}
   leverEndTransform: {fileID: 8099238870072076593}
   pumpSound: {fileID: 0}

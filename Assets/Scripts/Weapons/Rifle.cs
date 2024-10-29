@@ -41,7 +41,7 @@ public class Rifle : Gun
     public void MoveLever(Vector3 movement)
     {
         float pumpDelta = Vector3.Dot(movement, leverTransform.forward);
-        Vector3 newPosition = leverTransform.localPosition - leverTransform.forward * pumpDelta * leverActionSpeed;
+        Vector3 newPosition = leverTransform.localPosition + (leverActionSpeed * pumpDelta * leverTransform.forward);
         leverTransform.localPosition = ClampLeverPosition(newPosition);
     }
 

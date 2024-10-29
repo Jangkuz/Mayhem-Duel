@@ -523,12 +523,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 236884896}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &223375157 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6647348180425001439, guid: 52e1a0322b09cb04f9252b273a2e2bb5,
-    type: 3}
-  m_PrefabInstance: {fileID: 28336646969804113}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &236884892
 GameObject:
   m_ObjectHideFlags: 0
@@ -3799,14 +3793,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2662078094357814002, guid: 52e1a0322b09cb04f9252b273a2e2bb5,
         type: 3}
+      propertyPath: isAuto
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662078094357814002, guid: 52e1a0322b09cb04f9252b273a2e2bb5,
+        type: 3}
       propertyPath: currentMag
       value: 
       objectReference: {fileID: 1392092293}
     - target: {fileID: 2662078094357814002, guid: 52e1a0322b09cb04f9252b273a2e2bb5,
         type: 3}
-      propertyPath: leverTransform
-      value: 
-      objectReference: {fileID: 223375157}
+      propertyPath: leverActionSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2878704846575611423, guid: 52e1a0322b09cb04f9252b273a2e2bb5,
         type: 3}
       propertyPath: m_Name
@@ -4512,6 +4511,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8971147634239667947, guid: 0c73520f4ce8ade4fa39a5b1080d5d2a,
         type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8971147634239667947, guid: 0c73520f4ce8ade4fa39a5b1080d5d2a,
+        type: 3}
       propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -4665,6 +4669,21 @@ PrefabInstance:
         type: 3}
       propertyPath: currentMag
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716340227343243481, guid: 58bedcae6f0d9594ea0719faec657242,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716340227343243481, guid: 58bedcae6f0d9594ea0719faec657242,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716340227343243481, guid: 58bedcae6f0d9594ea0719faec657242,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 4716340227343243481, guid: 58bedcae6f0d9594ea0719faec657242,
         type: 3}

@@ -36,7 +36,7 @@ public class LeverInteractable : XRSimpleInteractable
         {
             Vector3 currentPosition = interactorsSelecting[0].transform.position;
             Vector3 movement = initialGrabPosition - currentPosition;
-            rifle.MoveLever(movement);
+            rifle.MoveLever(-movement);
             initialGrabPosition = currentPosition;
         }
         else
