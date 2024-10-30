@@ -26,6 +26,7 @@ public class M4Colt : Rifle
     }
     public void LaunchRocket()
     {
+        Debug.Log("Rocket Launched");
         if(rocketReady && rocketMag> 0)
         {
             Rocket.Create(rocketBarrel.position, rocketBarrel, 10);
