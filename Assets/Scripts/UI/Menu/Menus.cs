@@ -14,7 +14,7 @@ public class Menus : MonoBehaviour
 
     [SerializeField] private InputActionProperty vrRightPauseButton;
 
-    bool isPaused = false;
+    //bool isPaused = false;
     #endregion
     private void Start()
     {
@@ -49,19 +49,19 @@ public class Menus : MonoBehaviour
 
     }
 
-    private void Pause()
-    {
-        isPaused = true;
-        Time.timeScale = 0.0f;
-        //Debug.Log("Pausing");
-    }
+    //private void Pause()
+    //{
+    //    isPaused = true;
+    //    Time.timeScale = 0.0f;
+    //    //Debug.Log("Pausing");
+    //}
 
-    private void UnPause()
-    {
-        isPaused = false;
-        Time.timeScale = 1;
-        //Debug.Log("Continuing");
-    }
+    //private void UnPause()
+    //{
+    //    isPaused = false;
+    //    Time.timeScale = 1;
+    //    //Debug.Log("Continuing");
+    //}
     /// <summary>
     /// Bring up the Game Over Menu
     /// </summary>
